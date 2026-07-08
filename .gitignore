@@ -1,0 +1,77 @@
+# ============================================================
+# Unity generated directories
+# ============================================================
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+/[Bb]uild/
+/[Bb]uilds/
+
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# ============================================================
+# Visual Studio / IDE
+# ============================================================
+
+.vs/
+.vscode/
+.idea/
+
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.sln.iml
+
+# ============================================================
+# Unity-generated IDE files
+# ============================================================
+
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+[Aa]ssets/Plugins/Editor/JetBrains*
+
+# ============================================================
+# Build and temporary files
+# ============================================================
+
+*.tmp
+*.log
+
+.gradle/
+
+sysinfo.txt
+mono_crash.*
+
+# ============================================================
+# Operating system files
+# ============================================================
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================================
+# Upgrade / local generated reports
+# ============================================================
+
+UpgradeLog.htm
+# Visual Studio upgrade logs
+UpgradeLog*.htm

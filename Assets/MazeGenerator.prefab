@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9138175554041894764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8321561072472832305}
+  - component: {fileID: 4702108262514981374}
+  - component: {fileID: 6426723123223808775}
+  m_Layer: 0
+  m_Name: MazeGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8321561072472832305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9138175554041894764}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5771507, y: 0.5997589, z: -0.00981321}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4702108262514981374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9138175554041894764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 908e0b05407153b419c16bbe36fa4e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 101
+  height: 101
+  tilemap: {fileID: 0}
+  wallTile: {fileID: 11400000, guid: 1b551d805e1a2df4a9908bd14ef2b26b, type: 2}
+  floorTile: {fileID: 11400000, guid: 1d5aa979c56d637469ec91ed68d11cf0, type: 2}
+  emptyClusterChance: 0.1
+  EmpthyClusterSize: 10
+  wallClusterChance: 0.1
+  WallClusterSize: 4
+--- !u!114 &6426723123223808775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9138175554041894764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f09a40df28fa9f4ca184651aa9e33a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entrancePrefab: {fileID: 0}
+  exitPrefab: {fileID: 0}
+  playerPrefab: {fileID: 0}
